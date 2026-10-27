@@ -4,9 +4,9 @@
 
 WhatsApp notifications in the Samsung Now Bar on technically compatible Galaxy devices.
 
-**Latest beta:** [v0.5.0-beta.1](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.1) · Maintainer: **zenix2312**
+**Latest beta:** [v0.5.0-beta.2](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.2) · Maintainer: **zenix2312**
 
-[Download beta](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.1) · [Release notes](RELEASE_NOTES.md) · [Distribution terms](TERMS.md)
+[Download beta](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.2) · [Release notes](RELEASE_NOTES.md) · [Distribution terms](TERMS.md)
 
 ## About
 
@@ -22,7 +22,7 @@ This public repository provides compiled releases and documentation. The source 
 
 ## Installation
 
-1. Download the module ZIP and matching `.sha256` file from the [release page](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.1).
+1. Download the module ZIP and matching `.sha256` file from the [release page](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.2).
 2. Verify the checksum; keep a known-good backup and a recovery method.
 3. Install through a compatible root module manager.
 4. Check the module's **Action** screen for diagnostics, then test actual WhatsApp notifications.
