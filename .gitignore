@@ -1,0 +1,8 @@
+*.zip
+*.apk
+*.dex
+*.log
+*.key
+*.keystore
+*.pem
+.env
