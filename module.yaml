@@ -1,0 +1,11 @@
+schemaVersion: 1
+id: whatsnow_ksu
+name: WhatsNow
+summary: WhatsApp notifications for Samsung Galaxy devices with compatible Now Bar capabilities.
+description: README.md
+homepage: https://github.com/zenix2312/WhatsNow-Releases
+support: https://github.com/zenix2312/WhatsNow-Releases/issues
+tags: [samsung, notifications, whatsapp]
+authors:
+  - name: zenix2312
+    url: https://github.com/zenix2312
