@@ -1,41 +1,45 @@
 # WhatsNow
 
-A root module for compatible Samsung Galaxy Now Bar notifications from WhatsApp.
+**Language:** [English](README.md) | [Português (Brasil)](README.pt-BR.md)
+
+WhatsApp notifications in the Samsung Now Bar on technically compatible Galaxy devices.
 
 **Latest beta:** [v0.5.0-beta.1](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.1) · Maintainer: **zenix2312**
 
-[Português (Brasil)](README.pt-BR.md) | [Releases](https://github.com/zenix2312/WhatsNow-Releases/releases)
+[Download beta](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.1) · [Release notes](RELEASE_NOTES.md) · [Distribution terms](TERMS.md)
 
 ## About
 
-WhatsNow adapts supported WhatsApp notifications to Samsung's Now Bar when the installed firmware exposes the required capabilities. Availability of Now Bar alone does not guarantee compatibility.
+WhatsNow is a root module that adapts supported WhatsApp notifications to the Samsung Now Bar, when the device firmware provides the required capabilities. The presence of a Now Bar does **not** guarantee that the underlying integration is supported.
 
-This is a **binary-distribution repository**. The source code and build tools are maintained in a private repository; this repository does not provide an open-source license.
+This public repository provides compiled releases and documentation. The source code is maintained separately in a private repository; WhatsNow is **not open source**.
 
 ## Compatibility
 
-Confirmed test environment: Samsung Galaxy A07, Android 16, One UI 8.5 and KernelSU. Other models and One UI versions require testing. Module-manager support other than KernelSU has not been verified on real devices.
+**Tested:** Samsung Galaxy A07, Android 16, One UI 8.5, KernelSU.
 
-## Install
+**Other Samsung Galaxy devices:** experimental. Compatibility depends on the specific firmware's Now Bar notification capabilities and must be tested on each device. Support for root module managers other than KernelSU has not been confirmed.
 
-1. Download the ZIP and corresponding SHA-256 file from the latest beta release.
-2. Verify the checksum, and keep a known-good backup and recovery path.
-3. Install using your compatible root module manager.
-4. Check the module's Action view for compatibility status, then test with actual WhatsApp notifications.
-5. If SystemUI misbehaves, disable the module and follow your device recovery procedure.
+## Installation
 
-## Known limitations
+1. Download the module ZIP and matching `.sha256` file from the [release page](https://github.com/zenix2312/WhatsNow-Releases/releases/tag/v0.5.0-beta.1).
+2. Verify the checksum; keep a known-good backup and a recovery method.
+3. Install through a compatible root module manager.
+4. Check the module's **Action** screen for diagnostics, then test actual WhatsApp notifications.
+5. If SystemUI becomes unstable, disable the module and follow your device's recovery procedure.
 
-- Inline replies from inside the card remain disabled in this beta for stability.
-- Long conversation history may be truncated on some firmwares.
-- Compatibility and stability across devices remain unverified outside the test configuration.
+## Current limitations
 
-## Reporting issues
+- Replying inline inside the Now Bar card is disabled for stability.
+- Long conversation histories may be truncated.
+- Broad device and firmware compatibility has not yet been verified.
 
-Specify Samsung model, Android and One UI versions, module manager and version, expected/observed behavior, and steps to reproduce. **Redact** messages, phone numbers, device identifiers and private logs.
+## Bug reports
 
-## Terms
+Include the Samsung model, Android and One UI versions, module manager/version, steps to reproduce, and expected versus actual behavior. Remove private messages, phone numbers, device IDs and sensitive logs before posting.
 
-The original WhatsNow code is privately maintained by zenix2312. The released ZIP is provided for personal testing. No permission is granted to redistribute modified or rebranded builds without authorization. See [distribution terms](TERMS.md).
+## Distribution
 
-WhatsNow is an independent project, not affiliated with Samsung or Meta. Names and trademarks belong to their respective owners.
+The original source is private. The downloadable module contains compiled binaries and the runtime/installer shell scripts needed to install it. Downloading the ZIP does not authorize redistributing modified or rebranded releases. See [distribution terms](TERMS.md).
+
+WhatsNow is an independent project and is not affiliated with Samsung or Meta. Names and trademarks belong to their owners.
